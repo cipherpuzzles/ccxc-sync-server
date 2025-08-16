@@ -1,0 +1,10 @@
+{
+    "redis": {
+        "host": "localhost",
+        "port": 6379
+    },
+    "yPersistence": {
+        "dir": "./data"
+    },
+    "apiRoot": "http://localhost:52412/api/v1"
+}
