@@ -116,7 +116,7 @@ export async function roomNotify(ws, userSession, redis) {
                     cmd: 1,
                     message: "OK"
                 });
-                getNewAnnoCountAndNewMessageCount(userSession, redis, ws);
+                //getNewAnnoCountAndNewMessageCount(userSession, redis, ws);
             }
             break;
             default:
